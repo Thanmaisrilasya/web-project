@@ -1,0 +1,31 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fffefe; /* Black background */
+    color: #fff; /* White text */
+}
+.container {
+    text-align: center;
+    padding: 20px;
+}
+.logo {
+    width: 500px; 
+    margin: 150px auto;
+}
+.buttons {
+    margin-top: 20px;
+}
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.buttons a:last-child {
+    margin-right: 0;
+}

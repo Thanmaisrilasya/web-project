@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 380px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 30px;
+    color: #405de6; /* Facebook blue */
+    font-size: 28px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 16px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #405de6; /* Facebook blue */
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #3b55e6; /* Darker shade of Facebook blue */
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #888;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #405de6; /* Facebook blue */
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.buttons a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.buttons a:last-child {
+    margin-right: 0;
+}
